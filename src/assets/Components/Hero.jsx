@@ -3,7 +3,7 @@ import React from 'react'
 
 function Hero() {
   return (
-    <section className='bg-[url(image2.svg)] w-full bg-cover bg-no-repeat overflow-hidden md:px-10 py-5'>
+    <section className='bg-[url(./image2.svg)] w-full bg-cover bg-no-repeat overflow-hidden md:px-10 py-5'>
       <div className='w-full md:w-[50%] px-10 mb-5 '>
         <p className=' text-xl py-5 text-[#0FF1F6]'>AI SDRs (aiDRs)</p>
         <h2 className='font-bold text-white text-4xl py-4 leading-tight text-wrap'>More leads, less people.</h2>

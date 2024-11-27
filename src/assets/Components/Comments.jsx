@@ -8,13 +8,13 @@ function Comments() {
           <img src="./Group 9.svg"  className=" grid items-center w-20 py-6" />
         </div>
         <div>
-          <p className="text-white text-center py-5 text-sm md:text-2xl  px-2">
-            Qorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+          <p className="text-white text-center   py-5 text-xs md:text-2xl text-wrap px-2">
+            Qorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc <br/>
             vulputate libero et velit interdum, ac aliquet odio mattis.
           </p>
           <div className="grid grid-cols-1 justify-items-center items-center">
           <span className="text-[#0FF1F6] py-1 text-center">John Doe</span>
-          <p className="text-white py-4">
+          <p className="text-white py-5">
              Chief Strategy Officer @ Company
           </p>
           </div>

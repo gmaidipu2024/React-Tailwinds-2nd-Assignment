@@ -9,7 +9,7 @@ function Getstart() {
        <h3 className="text-[#0FF1F6] text-center text-xl ">GET STARTED</h3>
       </div>
       <div>
-        <h1 className="text-white text-center text-2xl ">
+        <h1 className="text-white text-center text-xl md:text-2xl ">
         Embrace the new era of outbound.
         </h1>
         <div className="grid grid-cols-1 justify-items-center items-center">
