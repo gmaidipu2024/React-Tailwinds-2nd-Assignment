@@ -18,15 +18,15 @@ function Alocate() {
         </p>
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 ">
         <div className="content-center">
-          <img src="../32%.svg" alt="" />
+          <img src="./32%.svg" alt="" />
           <p className="text-white py-3">Improvement in <br/>Open Rates</p>
         </div>
         <div>
-          <img src="../75%.svg" alt="" />
+          <img src="./75%.svg" alt="" />
           <p className="text-white py-3">Improvement in <br/>Open Rates</p>
         </div>
         <div>
-          <img src="../35%.svg" alt="" />
+          <img src="./35%.svg" alt="" />
           <p className="text-white py-3">Improvement in <br/>Open Rates</p>
         </div>
       </div>
