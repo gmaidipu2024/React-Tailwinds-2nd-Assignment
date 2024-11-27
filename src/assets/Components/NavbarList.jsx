@@ -15,13 +15,13 @@ import {Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenuToggle, Navbar
 
   return (
     <Navbar onMenuOpenChange={setIsMenuOpen} className=" bg-[#002228] text-white py-3">
-      <div className="grid grid-cols-3 place-items-center content-center gap-4 ">
-        <div>
+      <div className="grid grid-cols-3 justify-items-stretch  items-center gap-4 ">
+        <div className=" items-start "> 
           <NavbarBrand>
             <img src="Logo.svg" alt="" />
           </NavbarBrand>
         </div>
-        <div>
+        <div >
           <NavbarContent className="hidden sm:flex gap-4" justify="center">
             <NavbarItem >
               <Link  href="#" className="text-white">
@@ -45,7 +45,7 @@ import {Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenuToggle, Navbar
             </NavbarItem>
           </NavbarContent>
         </div>
-        <div>
+        <div className=" grid items-end">
           <NavbarContent justify="end">
             <NavbarItem className="hidden lg:flex">
               <Link href="#" className="text-black bg-[#0FF1F6] rounded-full p-2.5 font-bold">Book a Demo</Link>
@@ -59,7 +59,7 @@ import {Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenuToggle, Navbar
         </div>
       </div>
 
-      <NavbarMenu className=" bg-[#02242ae3] mt-1 ">
+      <NavbarMenu className=" bg-[#02242ae3] mt-2 ">
         {menuItems.map((item, i) => (
           <NavbarMenuItem key={`${item}-${i}`} className="text-center py-2 mt-2" >
             <Link 
