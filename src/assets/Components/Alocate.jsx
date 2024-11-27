@@ -3,7 +3,7 @@ import React from "react";
 
 function Alocate() {
   return (
-    <section className="bg-[url(BG2.svg)] w-50% bg-cover bg-no-repeat overflow-hidden md:px-10 py-5">
+    <section className="bg-[url(../BG2.svg)] w-50% bg-cover bg-no-repeat overflow-hidden md:px-10 py-5">
       <div className="w-full md:w-[50%] px-10 mb-5 ">
         <p className=" text-2xl py-4 text-white">
           Allocate effort where your reps <br /> make an inpact.

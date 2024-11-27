@@ -2,7 +2,7 @@ import React from 'react'
 
 function Train() {
   return (
-    <section className='bg-[url(BG.svg)] w-full h-fit bg-no-repeat bg-cover overflow-hidden py-20 mx-auto text-center'>
+    <section className='bg-[url(../BG.svg)] w-full h-fit bg-no-repeat bg-cover overflow-hidden py-20 mx-auto text-center'>
       <div className=''>
         <h3 className='font-bold text-white text-2xl md:text-4xl py-3'>Train your aiDR on your...</h3>
         <h2 className='text-[#0FF1F6] text-3xl py-3'>prefered email st|</h2>
