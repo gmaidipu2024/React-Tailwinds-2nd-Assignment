@@ -5,16 +5,12 @@ import {Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenuToggle, Navbar
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
   const menuItems = [
-    "Profile",
-    "Dashboard",
-    "Activity",
-    "Analytics",
-    "System",
-    "Deployments",
-    "My Settings",
-    "Team Settings",
-    "Help & Feedback",
-    "Log Out",
+    "About Us",
+    "Pricing",
+    "Customers",
+    "Solutions",
+    "Solutions",
+    
   ];
 
   return (
@@ -63,10 +59,10 @@ import {Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenuToggle, Navbar
         </div>
       </div>
 
-      <NavbarMenu>
-        {menuItems.map((item, index) => (
-          <NavbarMenuItem key={`${item}-${index}`}>
-            <Link
+      <NavbarMenu className=" bg-[#02242ae3] mt-1 ">
+        {menuItems.map((item, i) => (
+          <NavbarMenuItem key={`${item}-${i}`} className="text-center py-2 mt-2" >
+            <Link 
             
               className="w-full"
               href="#"
@@ -74,8 +70,13 @@ import {Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenuToggle, Navbar
             >
               {item}
             </Link>
+            
           </NavbarMenuItem>
         ))}
+            <Button color="primary" variant="ghost">
+              Contact Us
+            </Button> 
+          
       </NavbarMenu>
 
       <NavbarContent className="text-white ">
