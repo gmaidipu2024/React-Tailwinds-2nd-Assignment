@@ -25,8 +25,8 @@ function Controls() {
 
         <div key={i}>
           <img src={items.img} alt="" className='px-3' />
-          <h1 className='font-bold text-2xl py-3 px-3'>{items.title}</h1>
-          <p className='px-3'> {items.dis}</p>
+          <h1 className='font-bold text-2xl py-4 px-3 '>{items.title}</h1>
+          <p className='px-3 text-wrap text-justify'> {items.dis}</p>
         </div>
 
         ))

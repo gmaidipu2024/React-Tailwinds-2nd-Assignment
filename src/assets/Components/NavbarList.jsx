@@ -67,6 +67,7 @@ import {Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenuToggle, Navbar
               className="w-full"
               href="#"
               size="lg"
+              
             >
               {item}
             </Link>
