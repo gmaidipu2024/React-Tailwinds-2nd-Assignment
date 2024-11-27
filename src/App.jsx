@@ -1,5 +1,6 @@
 
 import './App.css'
+import Comments from './assets/Components/Comments';
 import Controls from './assets/Components/Controls';
 import Hero from './assets/Components/Hero';
 import NavbarList from "./assets/Components/NavbarList";
@@ -18,6 +19,7 @@ function App() {
     <Partnar/>
     <Controls/>
     <Train/>
+    <Comments/>
     </div>
     </>
   )
