@@ -2,6 +2,7 @@
 import './App.css'
 import Comments from './assets/Components/Comments';
 import Controls from './assets/Components/Controls';
+import Getstart from './assets/Components/Getstart';
 import Hero from './assets/Components/Hero';
 import NavbarList from "./assets/Components/NavbarList";
 import Partnar from './assets/Components/Partnar';
@@ -20,6 +21,7 @@ function App() {
     <Controls/>
     <Train/>
     <Comments/>
+    <Getstart/>
     </div>
     </>
   )
